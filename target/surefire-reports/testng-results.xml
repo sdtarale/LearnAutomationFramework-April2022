@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="7" passed="5" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-11T08:42:40 IST" name="Smoke" finished-at="2022-08-11T08:43:36 IST" duration-ms="56141">
+  <suite started-at="2022-08-12T11:01:49 IST" name="Smoke" finished-at="2022-08-12T11:02:33 IST" duration-ms="43862">
     <groups>
     </groups>
-    <test started-at="2022-08-11T08:42:40 IST" name="LoginTest" finished-at="2022-08-11T08:43:36 IST" duration-ms="56141">
+    <test started-at="2022-08-12T11:01:49 IST" name="LoginTest" finished-at="2022-08-12T11:02:33 IST" duration-ms="43862">
       <class name="com.learnautomation.testcases.LoginToApplication">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:42:40 IST" name="setUp" finished-at="2022-08-11T08:43:00 IST" duration-ms="19600" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:01:49 IST" name="setUp" finished-at="2022-08-12T11:02:02 IST" duration-ms="13278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:01 IST" name="setUpDriver" finished-at="2022-08-11T08:43:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:03 IST" name="setUpDriver" finished-at="2022-08-12T11:02:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:01 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-11T08:43:01 IST" duration-ms="35" status="SKIP">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:03 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-12T11:02:03 IST" duration-ms="10" status="SKIP">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -31,7 +31,7 @@
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Null Login data
 at com.learnautomation.pages.LoginPage.loginToApplication(LoginPage.java:37)
-at com.learnautomation.testcases.LoginToApplication.Login(LoginToApplication.java:30)
+at com.learnautomation.testcases.LoginToApplication.Login(LoginToApplication.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -70,11 +70,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:01 IST" name="setUpDriver" finished-at="2022-08-11T08:43:01 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:01 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-11T08:43:12 IST" duration-ms="10609" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:03 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-12T11:02:12 IST" duration-ms="8771" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,11 +86,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:12 IST" name="setUpDriver" finished-at="2022-08-11T08:43:12 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:03 IST" name="setUpDriver" finished-at="2022-08-12T11:02:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:12 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-11T08:43:18 IST" duration-ms="5549" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:12 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-12T11:02:16 IST" duration-ms="4329" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,11 +106,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:18 IST" name="setUpDriver" finished-at="2022-08-11T08:43:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:12 IST" name="setUpDriver" finished-at="2022-08-12T11:02:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:18 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-11T08:43:23 IST" duration-ms="5003" status="PASS">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:16 IST" name="setUpDriver" finished-at="2022-08-12T11:02:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:16 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-12T11:02:21 IST" duration-ms="4474" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,11 +130,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:23 IST" name="setUpDriver" finished-at="2022-08-11T08:43:23 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:23 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-11T08:43:27 IST" duration-ms="4736" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:21 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-12T11:02:25 IST" duration-ms="4495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,11 +146,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:27 IST" name="setUpDriver" finished-at="2022-08-11T08:43:27 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:21 IST" name="setUpDriver" finished-at="2022-08-12T11:02:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:27 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-11T08:43:33 IST" duration-ms="5232" status="PASS">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:25 IST" name="setUpDriver" finished-at="2022-08-12T11:02:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:25 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-12T11:02:30 IST" duration-ms="4463" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,11 +170,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:33 IST" name="setUpDriver" finished-at="2022-08-11T08:43:33 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:33 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-11T08:43:35 IST" duration-ms="2774" status="FAIL">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:30 IST" name="Login" description="Login" data-provider="Login" finished-at="2022-08-12T11:02:32 IST" duration-ms="2260" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -196,7 +192,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
-at com.learnautomation.testcases.LoginToApplication.Login(LoginToApplication.java:31)
+at com.learnautomation.testcases.LoginToApplication.Login(LoginToApplication.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -235,7 +231,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-11T08:43:36 IST" name="tearDown" description=" Tear Down" finished-at="2022-08-11T08:43:36 IST" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:30 IST" name="setUpDriver" finished-at="2022-08-12T11:02:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginToApplication@512baff6]" started-at="2022-08-12T11:02:32 IST" name="tearDown" description=" Tear Down" finished-at="2022-08-12T11:02:33 IST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

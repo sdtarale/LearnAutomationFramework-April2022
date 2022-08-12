@@ -1,13 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 58.411 s <<< FAILURE! - in TestSuite
-com.learnautomation.testcases.LoginToApplication.Login[Admin, admin113](7)  Time elapsed: 3.087 s  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 45.142 s <<< FAILURE! - in TestSuite
+com.learnautomation.testcases.LoginToApplication.Login[Admin, admin113](7)  Time elapsed: 2.558 s  <<< FAILURE!
 java.lang.AssertionError: Login Failed expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
-	at com.learnautomation.testcases.LoginToApplication.Login(LoginToApplication.java:31)
+	at com.learnautomation.testcases.LoginToApplication.Login(LoginToApplication.java:32)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
